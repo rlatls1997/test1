@@ -9,7 +9,7 @@ import org.springframework.stereotype.Service;
 import net.skhu.entity.User;
 import net.skhu.repository.UserRepository;
 
-@Service
+@Service //test/
 public class MyUserDetailsService implements UserDetailsService {
 
     @Autowired UserRepository userRepository;
